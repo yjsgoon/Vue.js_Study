@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>My Vue.js</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <div id="pronouns">
+        <p><strong>Check yourself :)</strong></p>
+        <textarea class="textarea" v-model="text" @keyup="checkText">
+        {{ text }}
+    </textarea> <i v-bind:class="{ 'correct': correct, 'incorrect': !correct }"></i>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.4/vue.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        var initialText, correctText;
+
+        initialText = 'Me is sad because he is more clever than I.';
+        correctText = 'I am sad because he is more clever than me.';
+
+        new Vue({
+            el: '#pronouns',
+            data: {
+                text: initialText,
+                correct: false
+            },
+            methods: {
+                checkText: function() {
+                    var text;
+                    text = this.text.trim();
+                    this.correct = text === correctText;
+                }
+            }
+        })
+    });
+</script>
+</body>
+</html>
