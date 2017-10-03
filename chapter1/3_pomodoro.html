@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>My Vue.js</title>
@@ -15,8 +15,8 @@
         <button :disabled="state !== 'started'" @click="pause()">
             <i class="glyphicon glyphicon-pause"></i>
         </button>
-        <!--<button :disabled="state !== 'started' && state !== 'paused'" @click="stop()">-->
-        <button :disabled="state === 'stopped'" @click="stop()">
+        <!--<button :disabled="state === 'stopped'" @click="stop()">-->
+        <button :disabled="state !== 'started' && state !== 'paused'" @click="stop()">
             <i class="glyphicon glyphicon-stop"></i>
         </button>
     </h2>
@@ -25,6 +25,10 @@
         <div class="pomodoro-timer">
             <span>{{ min }}</span>:<span>{{ sec }}</span>
         </div>
+    </div>
+    <!--<div v-bind:class="{ 'hidden': pomodoroState === 'work' }">-->
+    <div :class="{ 'hidden': pomodoroState === 'work' }">
+        <img :src="'http://thecatapi.com/api/images/get?format=src&type=gif&ts=' + timestamp" class="img-thumbnail">
     </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.4/vue.js" type="text/javascript"></script>
@@ -41,8 +45,8 @@
         STOPPED: 'stopped',
         PAUSED : 'paused'
     };
-    const WORKING_TIME_LENGTH_IN_MINUTES = 1;
-    const RESTING_TIME_LENGTH_IN_MINUTES = 1;
+    const WORKING_TIME_LENGTH_IN_MINUTES = 25;
+    const RESTING_TIME_LENGTH_IN_MINUTES = 5;
 
     new Vue({
         el: '#app',
@@ -93,6 +97,10 @@
                 this.second = 0;
             },
             _tick: function() {
+                // image의 src로 사용되는 timestamp값을 갱신한다.
+                if (this.second % 10 === 0) {
+                    this.timestamp = new Date().getTime();
+                }
                 // second가 0이 아니라면 값을 감소시킨다.
                 if (this.second !== 0) {
                     this.second--;

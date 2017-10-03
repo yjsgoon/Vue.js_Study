@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e9babb5-e7bf-407a-9242-34407b8244e9" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/chapter1/test_1.html" afterPath="$PROJECT_DIR$/chapter1/1_shopping.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/chapter1/test_2.html" afterPath="$PROJECT_DIR$/chapter1/2_textCheck.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/chapter1/test_3.html" afterPath="$PROJECT_DIR$/chapter1/3_pomodoro.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter1/test_3.html" afterPath="$PROJECT_DIR$/chapter1/test_3.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,38 +23,38 @@
       <file leaf-file-name="example_1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter1/example_1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="65" column="14" lean-forward="false" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+            <state relative-caret-position="233">
+              <caret line="86" column="36" lean-forward="true" selection-start-line="86" selection-start-column="36" selection-end-line="86" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter1/test_1.html">
+      <file leaf-file-name="1_shopping.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter1/1_shopping.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+            <state relative-caret-position="350">
+              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter1/test_2.html">
+      <file leaf-file-name="2_textCheck.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter1/2_textCheck.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="328">
+              <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_3.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter1/test_3.html">
+      <file leaf-file-name="3_pomodoro.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter1/3_pomodoro.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="448">
+              <caret line="113" column="35" lean-forward="false" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -73,9 +75,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapter1/test_1.html" />
         <option value="$PROJECT_DIR$/chapter1/test_2.html" />
         <option value="$PROJECT_DIR$/chapter1/test_3.html" />
+        <option value="$PROJECT_DIR$/chapter1/test_1.html" />
+        <option value="$PROJECT_DIR$/chapter1/3_pomodoro.html" />
       </list>
     </option>
   </component>
@@ -229,12 +232,12 @@
       <option name="presentableId" value="Default" />
       <updated>1506927457235</updated>
       <workItem from="1506927458642" duration="3222000" />
-      <workItem from="1507009603064" duration="3929000" />
+      <workItem from="1507009603064" duration="5537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7151000" />
+    <option name="totallyTimeSpent" value="8759000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -271,32 +274,32 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/chapter1/example_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="65" column="14" lean-forward="false" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+        <state relative-caret-position="233">
+          <caret line="86" column="36" lean-forward="true" selection-start-line="86" selection-start-column="36" selection-end-line="86" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter1/test_1.html">
+    <entry file="file://$PROJECT_DIR$/chapter1/2_textCheck.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        <state relative-caret-position="328">
+          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter1/test_2.html">
+    <entry file="file://$PROJECT_DIR$/chapter1/1_shopping.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state relative-caret-position="350">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter1/test_3.html">
+    <entry file="file://$PROJECT_DIR$/chapter1/3_pomodoro.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="448">
+          <caret line="113" column="35" lean-forward="false" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
           <folding />
         </state>
       </provider>
