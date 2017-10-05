@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Vue.js</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body>
+
+<div id="app">
+    <input v-model="item" type="text">
+    <div v-square="item"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.4/vue.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+    /**
+     * 커스텀 지시자 문법
+     */
+    Vue.directive('my-directive', {
+        bind: function () {
+            // 엘리먼트가 바인딩될 때 예비 작업들을 한다.
+        },
+        update: function (newValue, oldValue) {
+            // 갱신된 값으로 어떤 작업을 수행한다.
+        },
+        unbind: function () {
+            // 클린업 작업을 한다.
+        }
+    });
+
+    Vue.directive('my-directive', function (el, binding) {
+        // 값이 바인딩될 때 무엇인가 한다.
+    });
+
+    // 값이 갱신될 때마다 제곱 값을 보여주는 예제
+    Vue.directive('square', function (el, binding) {
+        el.innerHTML = Math.pow(binding.value, 2);
+    });
+
+    new Vue({
+        el: '#app',
+        data: {
+            item: 42
+        }
+    });
+
+</script>
+</body>
+</html>

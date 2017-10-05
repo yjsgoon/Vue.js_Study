@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e9babb5-e7bf-407a-9242-34407b8244e9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/2_customDrective.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter2/1_shopping.html" afterPath="$PROJECT_DIR$/chapter2/1_shopping.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/chapter2/2_customDrective.js" afterPath="$PROJECT_DIR$/chapter2/2_customDrective.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,21 +38,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1_shopping.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1_shopping.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter2/1_shopping.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="84" column="7" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
+            <state relative-caret-position="180">
+              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2_customDrective.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter2/2_customDrective.js">
+      <file leaf-file-name="2_customDrective.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter2/2_customDrective.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+            <state relative-caret-position="412">
+              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -88,6 +88,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>v-model</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -100,6 +105,7 @@
         <option value="$PROJECT_DIR$/chapter1/3_pomodoro.html" />
         <option value="$PROJECT_DIR$/chapter2/1_shopping.html" />
         <option value="$PROJECT_DIR$/chapter2/2_customDrective.js" />
+        <option value="$PROJECT_DIR$/chapter2/2_customDrective.html" />
       </list>
     </option>
   </component>
@@ -273,12 +279,12 @@
       <updated>1506927457235</updated>
       <workItem from="1506927458642" duration="3222000" />
       <workItem from="1507009603064" duration="8618000" />
-      <workItem from="1507185045945" duration="651000" />
+      <workItem from="1507185045945" duration="1429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12491000" />
+    <option name="totallyTimeSpent" value="13269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -352,18 +358,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter2/2_customDrective.js">
+    <entry file="file://$PROJECT_DIR$/chapter2/1_shopping.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        <state relative-caret-position="180">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter2/1_shopping.html">
+    <entry file="file://$PROJECT_DIR$/chapter2/2_customDrective.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="84" column="7" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
+        <state relative-caret-position="412">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>
