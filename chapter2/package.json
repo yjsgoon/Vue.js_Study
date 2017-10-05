@@ -5,13 +5,8 @@
   },
   "version": "0.0.1",
   "devDependencies": {
-      // grunt는 자바스크립트 자동 빌드도구다.
-
-      // babel은 자바스크립트 다음 세대 버전을 쓸수있도록 해주는 transpiler
       "babel-preset-es2015": "^6.9.0",
       "babelify": "^7.3.0",
-
-      // browserify는 브라우저 단에서 node.js의 패키지 관리처럼 브라우저 단에서도 관리를 해줄수 있도록 하기위해 만든 것. 자매품은 webpack.
       "browserify": "^13.0.1",
       "vue": "^2.0.3"
   }
