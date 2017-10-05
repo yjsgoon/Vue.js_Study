@@ -1,3 +1,4 @@
+// 플러그인의 install 메소드를 이용해서 커스텀 지시자들을 설정한다.
 export default {
     install: function (Vue) {
         Vue.directive('square', function (el, binding) {
