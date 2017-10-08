@@ -21,7 +21,14 @@ new Vue({
  */
 
 /**
- * vue-cli
+ * [ vue-cli ]
  * vue는 자체명령행 인터페이스도 가지고 있으며, vue-cli 뷰 애플리케이션을 원하는 설저응로 초기화할 수 있다.
- * install command: npm install -g vue-cli
+ * install command: npm install -g vue-cl
+ *
+ * [ init application ]
+ * vue init webpack
+ * vue init webpack-simple
+ * vue init browserify
+ * vue init browserify-simple
+ * vue init simple
  */
