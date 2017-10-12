@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e9babb5-e7bf-407a-9242-34407b8244e9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter3/1_component_base/.babelrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter3/1_component_base/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter3/1_component_base/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter3/1_component_base/src/App.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter3/1_component_base/src/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter3/1_component_base/webpack.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter3/1_component_basea/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter3/1_component_basea/package.json" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/chapter3/1_component_basea/main.js" afterPath="$PROJECT_DIR$/chapter3/1_component_base/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/chapter3/1_component_basea/node_modules/.bin/require" afterPath="$PROJECT_DIR$/chapter3/1_component_base/node_modules/.bin/require" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter2/5_CSP/assets/vue" afterPath="$PROJECT_DIR$/chapter2/5_CSP/assets/vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter3/1_component_base/index.html" afterPath="$PROJECT_DIR$/chapter3/1_component_base/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter3/1_component_base/package.json" afterPath="$PROJECT_DIR$/chapter3/1_component_base/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,11 +29,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter3/1_component_base/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -114,7 +113,6 @@
         <option value="$PROJECT_DIR$/chapter2/5_assets/app.js" />
         <option value="$PROJECT_DIR$/chapter2/5_index.html" />
         <option value="$PROJECT_DIR$/chapter2/5_main.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/chapter2/5_manifest.json" />
         <option value="$PROJECT_DIR$/chapter2/6_script.js" />
         <option value="$PROJECT_DIR$/chapter2/6_npm_vue_index.html" />
@@ -145,6 +143,7 @@
         <option value="$PROJECT_DIR$/chapter3/1_component_basea/index.html" />
         <option value="$PROJECT_DIR$/chapter3/1_component_base/npm-debug.log" />
         <option value="$PROJECT_DIR$/chapter3/1_component_base/script.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -210,10 +209,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="chapter3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1_component_base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -374,12 +369,12 @@
       <workItem from="1507009603064" duration="8618000" />
       <workItem from="1507185045945" duration="11293000" />
       <workItem from="1507792772345" duration="43000" />
-      <workItem from="1507792998950" duration="5586000" />
+      <workItem from="1507792998950" duration="5735000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28762000" />
+    <option name="totallyTimeSpent" value="28911000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -750,14 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter3/1_component_base/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -770,6 +757,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
           <folding />
         </state>
       </provider>
