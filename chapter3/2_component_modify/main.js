@@ -10579,6 +10579,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //     }
 // });
 
+// hello Component
 _vue2.default.component('hello-component', {
     template: '#hello',
     data: function data() {
@@ -10593,12 +10594,7 @@ _vue2.default.component('hello-component', {
 // });
 
 
-/**
- * user를 Component에 바인딩해주기 위해선...
- *
- * 1. Component의 prop 속성 내에서 이 속성을 지정해준다.
- * 2. 해당 속성을 hello-component를 호출할 때 바인딩해준다.
- */
+// form Component
 /**
  * Component는 개별적인 변수 범위를 가진다.
  * Application은 전역적인 변수 범위를 가진다.
@@ -10609,11 +10605,32 @@ _vue2.default.component('hello-component', {
  * 해당 속성을 Compoenet 인스턴스에서 v-bind 문법을 사용해 바인딩해줘야 한다.
  */
 
-new _vue2.default({
-    el: '#app',
-    data: {
-        user: 'hero'
+_vue2.default.component('form-component', {
+    template: '#form',
+    props: ['value']
+});
+
+// greetings Component
+_vue2.default.component('greetings-component', {
+    template: '#greetings',
+    data: function data() {
+        return {
+            user: 'hero'
+        };
     }
+});
+
+/**
+ * user를 Component에 바인딩해주기 위해선...
+ *
+ * 1. Component의 prop 속성 내에서 이 속성을 지정해준다.
+ * 2. 해당 속성을 hello-component를 호출할 때 바인딩해준다.
+ */
+new _vue2.default({
+    el: '#app'
+    // data: {
+    //     user: 'hero'
+    // }
 });
 
 },{"./node_modules/vue/dist/vue.js":1}]},{},[2]);

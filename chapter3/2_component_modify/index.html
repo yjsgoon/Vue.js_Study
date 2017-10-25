@@ -3,14 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <title>Learning Vue.js</title>
+  <!--<link rel="import" href="hello.html" id="hello">-->
+  <!--<link rel="import" href="greetings.html">-->
 </head>
 <body>
+
+<template id="form">
+  <div>
+    <label for="name">What's your name?</label>
+    <input :value="value" type="text" id="name">
+  </div>
+</template>
+
 <template id="hello">
   <h1>{{ msg }} {{ user }}</h1>
 </template>
+
+<template id="greetings">
+  <div>
+    <form-component v-model="user"></form-component>
+    <hello-component :user="user"></hello-component>
+    <!--<hello-component v-bind:user="user"></hello-component>-->
+  </div>
+</template>
+
 <div id="app">
-  <hello-component v-bind:user="user"></hello-component>
+  <greetings-component></greetings-component>
 </div>
+
 <script src="main.js"></script>
 </body>
 </html>

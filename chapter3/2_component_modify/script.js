@@ -26,6 +26,7 @@ import Vue from './node_modules/vue/dist/vue.js';
 //     }
 // });
 
+// hello Component
 Vue.component('hello-component', {
     template: '#hello',
     data: function() {
@@ -40,6 +41,23 @@ Vue.component('hello-component', {
 // });
 
 
+// form Component
+Vue.component('form-component', {
+    template: '#form',
+    props: ['value']
+});
+
+
+// greetings Component
+Vue.component('greetings-component', {
+    template: '#greetings',
+    data: function() {
+        return {
+            user: 'hero'
+        }
+    }
+});
+
 /**
  * user를 Component에 바인딩해주기 위해선...
  *
@@ -47,8 +65,8 @@ Vue.component('hello-component', {
  * 2. 해당 속성을 hello-component를 호출할 때 바인딩해준다.
  */
 new Vue({
-    el: '#app',
-    data: {
-        user: 'hero'
-    }
+    el: '#app'
+    // data: {
+    //     user: 'hero'
+    // }
 });
