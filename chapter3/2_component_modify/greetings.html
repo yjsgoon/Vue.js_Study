@@ -1,4 +1,7 @@
 <template id="greetings">
-    <hello-component v-bind:user="user"></hello-component>
-    <form-component v-bind:user="user"></form-component>
+    <div>
+        <form-component v-model="user"></form-component>
+        <hello-component :user="user"></hello-component>
+        <!--<hello-component v-bind:user="user"></hello-component>-->
+    </div>
 </template>
