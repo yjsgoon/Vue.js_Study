@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+</head>
+<body>
+<div id="app">
+    <select>
+        <option is="option-component"></option>
+        <option is="option-component"></option>
+    </select>
+</div>
+
+<!--<template id="text">-->
+<!--<option>Hello</option>-->
+<!--</template>-->
+
+<script type="text/javascript">
+    Vue.config.devtools = true;
+
+    Vue.component("option-component", {
+        template : "<option>hello</option>"
+    });
+
+    //    vue.component("option-component", {
+    //        template : "#text"
+    //    });
+
+    var model = {
+
+    };
+
+    var vm = new Vue({
+        el : "#app",
+        data : model
+    })
+</script>
+</body>
+</html>
